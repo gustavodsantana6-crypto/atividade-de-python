@@ -1,0 +1,18 @@
+import os
+
+#Limpe o terminal.
+os.system("cls || clear")
+ 
+primeira_nota = int(input("Digite a primeira nota: "))
+segunda_nota = int(input("Digite a segunda nota: "))
+terceira_nota = int(input("Digite sua terceira nota: "))
+
+#Calculo.
+media = (primeira_nota + segunda_nota + terceira_nota ) / 3
+#Condicional.
+
+if media>=7:
+    print("Aprovado!")
+else:
+    print("Reprovado!")
+
