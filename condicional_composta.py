@@ -1,15 +1,13 @@
 import os
- 
-#Limpe o terminal.
-os.system("Cls || clear")
-  
+os.system("cls || clear")
+
 idade = int(input("Digite sua idade: "))
-  
-   #Condicional simples.
-if idade <10:
-       print("É menor que 10.")
-if idade >10: 
-       print("Não é menor que 10.")
-       
-       print("Progama encerrado.")       
-       
+
+
+if idade < 18:
+    print("Acesso negado.")
+    
+else:
+    print("Acesso liberado.")
+
+print("Programa encerrado.")

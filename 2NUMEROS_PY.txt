@@ -1,0 +1,19 @@
+import os
+ 
+#Limpe o terminal.
+os.system("Cls || clear")
+
+print("- Solicitando dados")
+primeiro_numero = int(input("Digite primeiro numero:"))
+segundo_numero = int(input("Digite seu segundo numero:"))
+terceiro_numero = int(input("Digite seu terceiro numero:"))
+
+maior = max(primeiro_numero, segundo_numero, terceiro_numero) 
+menor = min(primeiro_numero, segundo_numero, terceiro_numero)
+
+print("\n- Exibindo resultados -")
+print(f"primeiro número: {primeiro_numero}")
+print(f"Segundo número: {segundo_numero}")
+print(f"Terceiro número: {terceiro_numero}")
+print(f"Maior número: {maior}")
+print(f"Menor número: {menor}")

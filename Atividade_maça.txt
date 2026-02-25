@@ -1,0 +1,20 @@
+import os
+
+ #Limpe o terminal.
+os.system("cls || clear")
+
+print("-Solicitando dados-")
+quantidade = int(input("Digite a quantidade das maçãs desejadas:"))
+
+#Calculo.
+
+if quantidade < 12:
+   preço = 1.30
+else: 
+   preço = 1
+   
+preço_final = quantidade * preço 
+
+print("\n-Exibindo resultados-")
+print(f"Preço por maçã: R$ {preço:.2f}")
+print(f"Preço final: R$ {preço_final:.2f}")
